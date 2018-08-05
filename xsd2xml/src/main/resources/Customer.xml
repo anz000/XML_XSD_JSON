@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer xmlns="http://www.example.org/Customer">
+    <customerID>1</customerID>
+    <name>Anuj</name>
+    <dateOfBirth>2018-08-05-05:00</dateOfBirth>
+    <annualSalary>20000.0</annualSalary>
+    <address>
+        <street>McArthur</street>
+        <city>Dallas</city>
+        <state>TX</state>
+        <country>USA</country>
+    </address>
+    <address>
+        <street>FargoDome</street>
+        <city>Fargo</city>
+        <state>ND</state>
+        <country>USA</country>
+    </address>
+    <PaymentMethod>
+        <cardNumber>12345</cardNumber>
+        <cardName>Anuj Shrestha</cardName>
+        <dateFrom>2018-08-05-05:00</dateFrom>
+        <dateTo>2018-08-05-05:00</dateTo>
+        <cardType>CREDIT</cardType>
+    </PaymentMethod>
+    <PaymentMethod>
+        <cardNumber>56789</cardNumber>
+        <cardName>Anuj Shrestha</cardName>
+        <dateFrom>2018-08-05-05:00</dateFrom>
+        <dateTo>2018-08-05-05:00</dateTo>
+        <cardType>DEBIT</cardType>
+    </PaymentMethod>
+</customer>
